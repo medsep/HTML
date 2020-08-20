@@ -1,17 +1,22 @@
 <!DOCTYPE html> 
-<html lang="de">
+<html lang="en">
 <head  style="background-color: rgb(121, 211, 121);">
     <title>Welcome to my test page</title>
-</head  style="background-color: rgb(200, 245, 200);">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-<section class="top-bar-section" style="background-color: rgb(200, 245, 200);">
+<header class="top-bar-section" style="background-color: rgb(200, 245, 200);">
     <h1 style=color:blue;text-align:left; >Mehdi Sepahvand</h1>
-</section>
+
 
 <nav class="fav links"  style="background-color: rgb(200, 200, 200);">
 <a target="_blank" href="https://github.com/medsep">One</a> <a target="_blank" href="https://en.wikipedia.org/wiki/">Two</a> <a target="_blank" href="https://www.mozilla.org/">Three</a> <a target="_blank" href="http://www.bbc.co.uk">Four</a>
 </nav>
-
+</header>
 <section class="fav foods" style="background-color:  rgb(200, 200, 230);">
 <h2 >Favourite Foods</h2>
 <ul>
@@ -24,26 +29,25 @@
 
 <section class="Achievements" style="background-color:  rgb(200, 245, 230);" >
 <h2>Achievements</h2>
-<p>Progress in completing this page (100%)  <progress value="100" max="100"> 100% </progress></p>
-<p>Progress in web development (20%) <progress value="20" max="100"> 20% </progress></p>
-<p>Progress in life (35%) <progress value="35" max="100"> 35% </progress></p> 
+<p>Progress in completing this page (100%)  <progress value="1"> </progress></br>
+Progress in web development (20%) <progress value="20" max="100">  </progress></br>
+Progress in life (35%) <progress value="35" max="100"> </progress></p> 
 </section>
 
 <section class="More About Me" style = " color: maroon; background-color: rgb(250, 245, 230);">
     <h2>More About Me</h2>
-    <dl>
-        <li style = "cursor:pointer;   content: \2023;" ><span>&#x25BC;</span>
-            My Childhood</li>
-            
-    <dt>I was borned in Hamedan, Iran. I spent most of my early years in Tehran in Iran.
+    <details open>
+        <summary>My Childhood</summary>
+    <p>I was borned in Hamedan, Iran. I spent most of my early years in Tehran in Iran.
         I spent my teenage years upto my early twenties in the UK. Later I spent 4 years
-        in Canada before finally settling down in Melbourne, Australia.</dt>
-    </dl>
+        in Canada before finally settling down in Melbourne, Australia.</p>
+    </details>
+
 </section>
 
 <footer style = "color:goldenrod;text-align:center;" >
     <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Introduction to web design">
-    <span>This page was created by Mehdi Sepahvand and Colleen van Lent.
+    <span>This page was created by Mehdi Sepahvand &amp; Colleen van Lent.
         To learn more about web design, visit <a target="_blank" href="http://www.intro-webdesign.com">
         Intro to Web Design.</a></span>
 </footer>

@@ -9,9 +9,6 @@ function upDate(previewPic){
 
     document.getElementById('image').style.backgroundImage= "url("+previewPic.src+")";
     document.getElementById('image').innerHTML= previewPic.alt;
-    //document.getElementById('message').innerHTML = element.alt;   
-
-    //document.body.style.backgroundImage= "url (" +previewPic.src + ")";
   
 	}
 

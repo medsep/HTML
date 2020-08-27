@@ -6,37 +6,41 @@ Style the page  as it appears in the example. -->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
-<header>
-	<h1> Web Design is Awesome!!!</h1>
+</head>
+<div class="col-md-lg-8" class="jumbotron text-center">
+	<header>
+		<div class="text-center">
+	<h1 ><strong>Web Design is Awesome!!! <span class="d-none d-sm-inline">(I guess...)</span></strong></h1>
+		</div>
 	<nav>
-		<a href="http://www.umich.edu/">University of Michigan</a>
-		<a href="http://www.intro-webdesign.com/">Intro to Web Design</a>
+		<ul class="nav-item"><a href="http://www.umich.edu/">University of Michigan</a></ul>
+		<ul class="nav-item"><a href="http://www.intro-webdesign.com/">Intro to Web Design</a></ul>
 	</nav>
   </header>
-
-
-  <section id = "left">
-	<h2>Why I am taking this class</h2>
+</div>
+<body>
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-4" class="col-md-left">
+	<h2><strong>Why I am taking this class</strong></h2>
 	<ol>
 		<li>It is required.</li>
 		<li>I already know it, easy A!</li>
 		<li>My mom wants a webpage.</li>
 	</ol>
-  </section>
+</div>
 
-
-  <section id = "center">
-	<h2>Why I am at University  of Michigan</h2>
-	<div class="myClass">
-		<h3> Ann Arbor</h3>
+  <div class="col-md-8" id = "center" class="text-md-left">
+	<h2><strong>Why I am at University of Michigan</strong></h2>
+		<h3><strong>Ann Arbor</strong> </h3>
 		<p >There are many excellent reason to attend the <a href = "umich.edu">University of Michigan</a>.  The academics are top-notch, the students are exceptionally good-looking, and for about six weeks out of the year the weather is almost pleasant.</p>
-	</div>
 
-	<div>
+	<div class ="d-none d-sm-block rounded float-left mx-auto">
 		<img src="http://www-personal.umich.edu/~jensenl/visuals/album/annarbor/IMG_1051.jpg" alt="Football">
 
 		<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTO8WIJ5ygVENopHPC5Op9z4ua-MoGD-LoUZuEd6vdL-EMro28CWw" alt="Solar Car">
@@ -45,11 +49,15 @@ Style the page  as it appears in the example. -->
 
 		<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTO8WIJ5ygVENopHPC5Op9z4ua-MoGD-LoUZuEd6vdL-EMro28CWw" alt="Football">
 	</div>
-  </section>
 
 
-  <footer>
-  	<p>Sample code for Responsive Design .<br/> Colleen van Lent</p>
+
+  <footer class="text-center text-uppercase">
+  	<p>Sample code for Responsive Design.<br/> Mehdi Sepahvand</p>
   </footer>
+</div>
+</div>
+</div>
+</body>
 <!-- DO NOT CHANGE ANY PART OF THIS HTML CODE!!! -->
 </html>
